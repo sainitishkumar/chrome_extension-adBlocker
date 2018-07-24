@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Shinchan",
+	"description": "Images of Shinchan",
+	"version": "1",
+	"author": "sai Nitish",
+	"browser_action": {
+	// "default_icon": "tab-icon.png",
+		"default_title": "Have a good day"
+	},
+	"permissions": ["activeTab","webRequest","webRequestBlocking","http://*/","https://*/"],
+	"background":{
+		"scripts":["ad_block.js"]
+	}
+	// "chrome_url_overrides" : {
+ //  		"newtab": "newtab.html"
+	// }
+}
+
