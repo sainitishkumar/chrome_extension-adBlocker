@@ -1,3 +1,4 @@
+//thanks to https://adrianstoll.com/dyi-adblocker/ for the list
 chrome.webRequest.onBeforeRequest.addListener(
 	function(details) {
 		console.log("blocking:", details.url);
